@@ -1,0 +1,191 @@
+.recovery-maintainance-section {
+    padding: 138px 0px 82px;
+    position: relative;
+}
+.recovery-maintainance-container {
+    max-width: 1105px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.recovery-maintainance-main {
+    position: relative;
+    z-index: 1;
+}
+.rm-section-bg-desktop {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.recovery-maintainance-flex {
+    justify-content: space-between;
+    align-items: center;
+}
+.recovery-maintainance-left {
+    width: 44.25%;
+}
+.recovery-maintainance-right {
+    width: 50.4%;
+}
+.rm-left-subhead span {
+    color: #B6935D;
+    font-family: Jost;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 6.6px;
+    text-transform: uppercase;
+}
+.rm-left-head {
+    max-width: 275px;
+    margin: 8px 0px 34px;
+}
+.rm-left-head h2 {
+    color: var(--cream, #F5F1EA);
+    font-family: "Cormorant Garamond";
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 82.759%;
+}
+.rm-left-head h2 span {
+    font-family: inherit;
+    font-style: italic;
+    color: #C5A167;
+}
+.rm-left-copy p {
+    color: #F5F1EA;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 162.5%;
+}
+.rm-left-specs {
+    margin: 56px 0px 0px;
+}
+.rm-left-specs-flex {
+    gap: 47px;
+}
+.rm-left-spec-single h3 {
+    color: var(--gold-for-button, #C5A167);
+    text-align: center;
+    font-family: "Cormorant Garamond";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 111%;
+}
+.rm-left-spec-single span {
+    color: #6B7280;
+    text-align: center;
+    font-family: Jost;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+.recovery-maintainance-right-content {
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(255, 255, 255, 0.05);
+    padding: 5px 5px;
+}
+.rm-phase-single {
+    padding: 40px 52px 42px 40px;
+    background-color: #1C2B27;
+}
+.rm-phase-single:not(:last-child) {
+    border-bottom: 1px solid rgba(245, 241, 234, .3);
+}
+.rm-phase-days span {
+    color: #C5A167;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.rm-phase-name {
+    margin: 12px 0px 14px;
+}
+.rm-phase-name h5 {
+    color: #F5F1EA;
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+.rm-phase-description p {
+    color: rgba(245, 241, 234, 0.50);
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 162.5%;
+}
+@media only screen and (max-width: 1028px) {
+    .recovery-maintainance-section {
+        padding: 80px 0px;
+    }
+    .rm-left-head h2 {
+        font-size: 56px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .recovery-maintainance-section {
+        padding: 60px 0px;
+    }
+    .rm-left-head h2 {
+        font-size: 48px;
+    }
+    .rm-left-head {
+        margin: 10px 0px 20px;
+    }
+    .rm-left-specs {
+        margin: 30px 0px 0px;
+    }
+    .rm-phase-single {
+        padding: 25px 25px;
+    }
+    .recovery-maintainance-right {
+        width: 53%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .recovery-maintainance-section {
+        padding: 20px 0px;
+    }
+    .recovery-maintainance-left {
+        width: 100%;
+    }
+    .recovery-maintainance-right {
+        width: 100%;
+        margin: 20px 0px 0px;
+    }
+    .rm-left-head h2 {
+        font-size: 36px;
+    }
+    .rm-left-head {
+        max-width: 100%;
+        margin: 10px 0px;
+    }
+    .rm-left-copy p {
+        font-size: 14px;
+    }
+    .rm-left-specs {
+        margin: 20px 0px 0px;
+    }
+    .rm-phase-single {
+        padding: 15px 15px;
+    }
+}

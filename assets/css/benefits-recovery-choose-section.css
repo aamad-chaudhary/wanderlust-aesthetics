@@ -1,0 +1,231 @@
+.benefits-recovery-choose-tabs {
+    background-color: #fff;
+}
+.benefits-recovery-choose-tabs ul {
+    display: flex;
+    gap: 173px;
+    justify-content: center;
+}
+.benefits-recovery-choose-tabs ul li a {
+    padding: 29px 0px;
+    color: #9CA3AF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+}
+.benefits-recovery-choose-tabs ul li.active a {
+    border-color: #C5A167;
+    color: #C5A167;
+}
+.benefits-recovery-choose-main {
+    padding: 81px 0px 112.5px;
+    background-color: #2D3C34;
+}
+.benefits-recovery-choose-container {
+    max-width: 1294px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.tab-head span {
+    color: #C5A167;
+    text-align: center;
+    font-family: Jost;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 6.6px;
+    text-transform: uppercase;
+}
+.tab-head {
+    max-width: 264px;
+    margin: 0 auto;
+    text-align: center;
+}
+.tab-head h4 {
+    color: var(--cream, #F5F1EA);
+    text-align: center;
+   font-family: "Cormorant Garamond";
+    font-size: 44px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 90.909%;
+    margin: 16px 0px 0px;
+}
+.benefits-container {
+    margin: 66px 0px 0px;
+}
+.benefit-card-single {
+    width: calc(33% - 13.9px);
+    border: 1px solid #F3F4F6;
+    background: #FFF;
+    padding: 49px 49px;
+    position: relative;
+}
+.benefits-flex {
+    gap: 27px;
+}
+.benefit-card-heading h3 {
+    color: #1C2B27;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%;
+}
+.benefit-card-heading {
+    position: relative;
+    padding: 23px 0px 0px;
+}
+.benefit-card-heading::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background-color: #C5A167;
+    width: 40px;
+    height: 1px;
+}
+.benefit-card-copy {
+    margin: 25px 0px 37px;
+}
+.benefit-card-copy p {
+    color: #9CA3AF;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 162.5%;
+    max-width: 250px;
+}
+.benefit-card-footer {
+    background-color: #F5F1EA;
+    padding: 20px 26px;
+    border-left: 1px solid #C5A167;
+}
+.benefit-card-footer h6 {
+    color: #C5A167;
+    font-family: Jost;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.benefit-card-footer p {
+    color: var(--Ink-for-text, #0F1714);
+    font-family: Jost;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 162.545%;
+    margin: 10px 0px 0px;
+    max-width: 210px;
+}
+.benefits-flex {
+    counter-reset: div;
+}
+.benefit-card-single::after {
+    content: "0" counter(div, decimal);
+    counter-increment: div;
+    position: absolute;
+    color: rgba(26, 36, 33, 0.03);
+    font-family: 'Cormorant Garamond';
+    font-size: 160px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    right: 5px;
+    top: 30px;
+    line-height: 100%;
+    pointer-events: none;
+    touch-action: none;
+}
+@media only screen and (max-width: 1028px) {
+    .benefits-recovery-choose-tabs ul {
+        gap: 120px;
+    }
+    .benefits-recovery-choose-main {
+        padding: 80px 0px;
+    }
+    .benefit-card-single {
+        width: calc(33% - 10.2px);
+        padding: 40px;
+    }
+    .benefits-flex {
+        gap: 20px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .benefits-recovery-choose-main {
+        padding: 40px 0px;
+    }
+    .benefits-container {
+        margin: 40px 0px 0px;
+    }
+    .benefit-card-single {
+        padding: 20px 20px;
+        width: calc(33% - 11.4px);
+    }
+    .benefit-card-copy {
+        margin: 20px 0px;
+    }
+    .benefit-card-footer {
+        padding: 15px 15px;
+    }
+    .benefit-card-single::after {
+        font-size: 120px;
+        top: -20px;
+    }
+    .benefits-recovery-choose-tabs ul {
+        gap: 80px;
+    }
+    .benefits-recovery-choose-tabs ul li a {
+        padding: 15px 0px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .benefits-recovery-choose-main {
+        padding: 20px 0px;
+    }
+    .tab-head h4 {
+        font-size: 32px;
+        margin: 10px 0px 0px;
+    }
+    .tab-head {
+        max-width: 100%;
+    }
+    .benefits-container {
+        margin: 20px 0px 0px;
+    }
+    .benefit-card-single {
+        width: 100%;
+    }
+    .benefit-card-copy {
+        margin: 10px 0px;
+    }
+    .benefit-card-heading {
+        padding: 15px 0px 0px;
+    }
+    .benefit-card-copy p {
+        max-width: 100%;
+    }
+    .benefits-recovery-choose-tabs ul li {
+        min-width: fit-content;
+    }
+    .benefits-recovery-choose-tabs ul {
+        gap: 25px;
+        justify-content: flex-start;
+        padding: 0 15px;
+        overflow: auto;
+    }
+    .benefits-recovery-choose-tabs ul::-webkit-scrollbar {
+        display: none;
+    }
+}

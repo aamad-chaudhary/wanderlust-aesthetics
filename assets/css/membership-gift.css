@@ -1,0 +1,69 @@
+.membership-gift-left, .membership-gift-right {
+    width: 50%;
+    padding: 127px 115px;
+}
+.membership-gift-left {
+    background-color: var(--racing-green);
+}
+.membership-gift-right {
+    background-color: #2D3C34;
+}
+.membership-gift-content h3 {
+    font-size: 35px;
+    font-family: 'Jost';
+    color: var(--twine);
+    font-weight: normal;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.membership-gift-copy {
+    margin: 20px 0px 0px;
+    max-width: 400px;
+}
+.membership-gift-link {
+    margin: 35px 0px 0px;
+}
+.membership-gift-copy p {
+    line-height: 170%;
+    font-size: 16px;
+    color: var(--spring-wood);
+    font-weight: 400;
+}
+.membership-gift-left .creative-btn--wrap .creative-slide--btn, .membership-gift-right .creative-btn--wrap .creative-slide--btn {
+    font-size: 12px;
+    color: var(--twine);
+}
+.membership-gift-right .creative-btn--wrap .creative-slide--btn {
+    border-color: var(--racing-green);
+}
+.membership-gift-left .creative-btn--wrap .creative-slide--btn:hover, .membership-gift-right .creative-btn--wrap .creative-slide--btn:hover {
+    color: var(--racing-green);
+}
+.membership-gift-left .creative-btn--wrap .creative-slide--btn .creative-btn--circle .circle, .membership-gift-right .creative-btn--wrap .creative-slide--btn .creative-btn--circle .circle {
+    right: calc(100% - 47px);
+}
+@media only screen and (min-width: 1441px) {
+    .membership-gift-main {
+        max-width: 1152px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 1028px) {
+    .membership-gift-left, .membership-gift-right {
+        padding: 90px 70px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .membership-gift-left, .membership-gift-right {
+        padding: 60px 40px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .membership-gift-left, .membership-gift-right {
+        width: 100%;
+        padding: 30px 20px;
+    }
+    .membership-gift-content h3 {
+        font-size: 30px;
+        }
+}

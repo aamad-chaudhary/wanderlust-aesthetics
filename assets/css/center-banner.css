@@ -1,0 +1,23 @@
+.center-banner-section {
+    min-height: 300px;
+    height: 72vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width: 1028px) {
+    .center-banner-section {
+        height: 35vh;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .center-banner-section {
+        height: 32vh;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .center-banner-section {
+        min-height: auto;
+        height: 250px;
+    }
+}

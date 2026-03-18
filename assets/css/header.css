@@ -1,0 +1,86 @@
+.site-header {
+    background-color: var(--racing-green);
+    padding: 30px 0px;
+}
+.header-container {
+    width: 100%;
+    max-width: 1250px;
+    margin-left: calc((100vw - 1250px) * (80 / 190));
+    margin-right: calc((100vw - 1250px) * (110 / 190));
+}
+.header-flex {
+    justify-content: space-between;
+    align-items: center;
+}
+.header-ham-logo-flex {
+    align-items: center;
+    gap: 58px;
+}
+.header-logo {
+    max-width: 141px;
+}
+.header-hamburger-button span {
+    display: block;
+    width: 32px;
+    background-color: var(--twine);
+    height: 2.5px;
+    border-radius: 20px;
+}
+.header-hamburger-button span:not(:last-child) {
+    margin-bottom: 5px;
+}
+.header-number-button-flex {
+    gap: 32px;
+    align-items: center;
+}
+.header-number a, .header-dpc a {
+    font-size: 14px;
+    color: var(--white);
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 100%;
+    display: block;
+}
+.header-button a {
+    padding: 4.5px 25px;
+    display: block;
+    border: 1px solid var(--twine);
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--twine);
+}
+.header-hamburger-button {
+    cursor: pointer;
+}
+@media only screen and (max-width: 1251px) {
+    .header-container {
+        margin: 0px;
+        padding: 0 40px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .header-container {
+        padding: 0 20px;
+    }
+    .header-ham-logo-flex {
+        gap: 30px;
+    }
+    .header-number-button-flex {
+        gap: 20px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .site-header {
+        padding: 20px 0px;
+    }
+    .header-ham-logo-flex {
+        gap: 20px;
+    }
+    .header-logo {
+        max-width: 120px;
+    }
+    .header-number, .header-dpc {
+        display: none;
+    }
+}

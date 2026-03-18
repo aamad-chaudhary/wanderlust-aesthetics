@@ -1,0 +1,17 @@
+.page-banner-single-treatment .banner-breadcrumbs ul li a {
+    color: #C5A167;
+}
+.page-banner-single-treatment .banner-breadcrumbs ul li span {
+    color: var(--spring-wood);
+}
+.page-banner-single-treatment .page-banner-content {
+    max-width: 549px;
+    margin: 0 auto;
+    text-align: center;
+}
+.page-banner-single-treatment .page-banner-content .banner-title {
+    margin: 15px 0px 0px;
+}
+.page-banner-single-treatment .page-banner-content .banner-title h1 {
+    color: var(--spring-wood);
+}

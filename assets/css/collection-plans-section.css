@@ -1,0 +1,232 @@
+.collection-plans-section {
+    padding: 78px 0px 129px;
+    background-color: #F5F1EA;
+}
+.collection-plans-container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.collection-plans-head {
+    text-align: center;
+}
+.collection-plans-head span {
+    color: #C5A167;
+    text-align: center;
+    font-family: Jost;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 133.33%; /* 133.333% */
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+.collection-plans-head h2 {
+    color: #1F403E;
+    text-align: center;
+    font-family: "Cormorant Garamond";
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 100%; /* 100% */
+    margin: 13px 0px 0px;
+}
+.collection-plans-flex {
+    margin: 80px 0px 0px;
+}
+.collection-plans-flex {
+    gap: 21px;
+}
+.collection-plan-single {
+    width: calc(33% - 10px);
+    border-radius: 12px;
+    border: 1px solid rgba(197, 161, 103, 0.10);
+    position: relative;
+}
+.collection-card-wrapper {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 41px 41px;
+    min-height: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: .2s ease-in-out;
+    position: relative;
+}
+.collection-card-head h3 {
+    color: #0F1714;
+    font-family: "Cormorant Garamond";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 120% */
+}
+.collection-card-head span {
+    margin: 8px 0px 0px;
+    color: #6B7280;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 142%; /* 142.857% */
+}
+.collection-card-pricing {
+    margin: 24px 0px 32px;
+    display: flex;
+    align-items: flex-end;
+}
+.collection-card-pricing h3 {
+    color: #1F403E;
+    font-family: "Cormorant Garamond";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 111%; /* 111.111% */
+}
+.collection-card-pricing span {
+    color: #9CA3AF;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 142.85%; /* 142.857% */
+    margin: 0 0 0 5px;
+}
+.collection-card-list ul li:not(:last-child) {
+    margin-bottom: 16px;
+}
+.collection-card-list ul li {
+    color: #374151;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 142.85%; /* 142.857% */
+}
+.collection-card-list ul li span {
+    color: #C5A167;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    margin: 0 5px 0px 0px;
+}
+.collection-card-button {
+    margin: 72px 0px 0px;
+}
+.collection-card-button a {
+    width: 100%;
+    border-radius: 100px;
+    border: 1px solid var(--gold-for-button, #C5A167);
+    padding: 17px 35px;
+    text-align: center;
+    color: #C5A167;
+    font-family: Jost;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 133.33%; /* 133.333% */
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+.collection-plan-single input[type="radio"] {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 1;
+}
+.most-popular-tag {
+    position: absolute;
+    border-radius: 100px;
+    background: linear-gradient(104deg, #C5A167 0%, #E2C28E 100%);
+    padding: 8.95px 28.74px 9.6px 25.05px;
+    color: #FFF;
+    font-family: Jost;
+    font-size: 10.5px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 150% */
+    letter-spacing: -0.525px;
+    text-transform: uppercase;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: max-content;
+    top: -17px;
+}
+.collection-plan-single input[type="radio"]:checked + .collection-card-wrapper {
+    background-color:  #1F403E;
+    transform: scale(1.06);
+}
+.collection-plan-single input[type="radio"]:checked + .collection-card-wrapper .collection-card-head h3 {
+    color: #C5A167;
+}
+.collection-plan-single input[type="radio"]:checked + .collection-card-wrapper .collection-card-head span {
+    color: #6B7280;
+}
+.collection-plan-single input[type="radio"]:checked + .collection-card-wrapper .collection-card-pricing h3 {
+    color: #F5F1EA;
+}
+.collection-plan-single input[type="radio"]:checked + .collection-card-wrapper .collection-card-pricing span {
+    color: #9CA3AF;
+}
+.collection-plan-single input[type="radio"]:checked + .collection-card-wrapper .collection-card-list ul li {
+    color: #F5F1EA;
+}
+.collection-plan-single input[type="radio"]:checked + .collection-card-wrapper .collection-card-button a {
+    background-color: #C5A167;
+    color: #0F1714;
+}
+@media only screen and (max-width: 1028px) {
+    .collection-plans-section {
+        padding: 60px 0px 80px;
+    }
+    .collection-plans-flex {
+        margin: 60px 0px 0px;
+    }
+    .collection-plan-single {
+        width: calc(33% - 12px);
+    }
+    .collection-card-wrapper {
+        padding: 30px 20px;
+    }
+    .collection-card-pricing {
+        margin: 20px 0px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .collection-plans-section {
+        padding: 40px 0px;
+    }
+    .collection-plans-flex {
+        margin: 40px 0px 0px;
+    }
+    .collection-plan-single {
+        width: calc(50% - 12px);
+    }
+    .collection-card-wrapper {
+        min-height: 520px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .collection-plans-head h2 {
+        font-size: 36px;
+    }
+    .collection-plans-section {
+        padding: 20px 0px;
+    }
+    .collection-plan-single {
+        width: 100%;
+    }
+    .collection-plans-flex {
+        margin: 20px 0px 0px;
+    }
+    .collection-card-wrapper {
+        min-height: auto;
+        padding: 20px;
+    }
+    .collection-card-button {
+        margin: 40px 0px 0px;
+    }
+}

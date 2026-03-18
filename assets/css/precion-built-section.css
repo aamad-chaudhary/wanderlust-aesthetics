@@ -1,0 +1,198 @@
+.precision-built-section {
+    padding: 157px 0px;
+}
+.precision-built-section .container {
+    padding: 0 20px;
+    max-width: 1250px;
+}
+.precision-built-left {
+    width: 37.3%;
+}
+.precision-built-right {
+    width: 56%;
+}
+.precision-built-content h2 {
+    max-width: 287px;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 110%; /* 110% */
+    font-family: 'Cormorant Garamond';
+    color: #F9F6F0;
+}
+.precision-built-content h2 span {
+    color: #C5A059;
+    font-style: italic;
+    font-family: inherit;
+}
+.precision-built-copy {
+    margin: 29px 0px 25px;
+    max-width: 390px;
+}
+.precision-built-copy p {
+    color: rgba(245, 241, 234, 0.60);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140.8%; 
+}
+.precision-built-explore a {
+    color: #C5A059;
+    font-size: 11.2px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 160% */
+    letter-spacing: 5.6px;
+    text-transform: uppercase;
+}
+.precision-built-flex {
+    justify-content: space-between;
+    align-items: center;
+}
+.precision-built-single-box {
+    width: calc(51.7% - 24px);
+    backdrop-filter: blur(12.5px);
+    border: var(--stroke-weight-1, 1px) solid rgba(197, 160, 89, 0.15);
+    background: rgba(255, 255, 255, 0.03);
+    padding: 50px 36px;
+}
+.precision-built-boxes {
+    gap: 24px;
+}
+.pbs-box-index h5 {
+    color: #C5A059;
+    font-size: 28.8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px;
+    font-family: 'Jost';
+}
+.pbs-box-index {
+    margin-bottom: 25px;
+}
+.pbs-box-content h4 {
+    margin: 0 0 15px;
+    font-size: 25.6px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+    color: #fff;
+}
+.pbs-box-content p {
+    max-width: 235px;
+    color: rgba(245, 241, 234, 0.50);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 174.857%;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.gold-standard-section {
+    background-color: #1F403E;
+}
+.pbc-sub-heading {
+    color: #C5A059;
+    font-family: 'Jost';
+    font-size: 11.2px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 160% */
+    letter-spacing: 5.6px;
+    text-transform: uppercase;
+    margin: 0 0 25px;
+    display: block;
+}
+.gold-standard-section .precision-built-left {
+    width: 41.5%;
+}
+.gold-standard-section .precision-built-content h2 {
+    max-width: 100%;
+}
+.gold-standard-section .precision-built-copy {
+    max-width: 451px;
+}
+.gold-standard-section .precision-built-copy p {
+    font-size: 22px;
+}
+@media only screen and (max-width: 1028px) {
+    .precision-built-section {
+        padding: 80px 0px;
+    }
+    .precision-built-right {
+        width: 62%;
+    }
+    .gold-standard-section .precision-built-left {
+        width: 35%;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .precision-built-content h2 {
+        font-size: 60px;
+    }
+    .precision-built-single-box {
+        padding: 30px 15px;
+    }
+    .pbs-box-index {
+        margin-bottom: 10px;
+    }
+    .pbs-box-content h4 {
+        margin: 0 0 10px;
+    }
+    .precision-built-section {
+        padding: 60px 0px;
+    }
+    .precision-built-explore a {
+        letter-spacing: 2.6px;
+    }
+    .gold-standard-section .precision-built-copy p {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .precision-built-section {
+        padding: 20px 0px;
+    }
+    .precision-built-left {
+        width: 100%;
+    }
+    .precision-built-right {
+        width: 100%;
+        margin: 20px 0px 0px;
+    }
+    .precision-built-content h2 {
+        font-size: 40px;
+        max-width: 100%;
+    }
+    .precision-built-copy {
+        margin: 15px 0px;
+        max-width: 100%;
+    }
+    .precision-built-copy p {
+        font-size: 16px;
+    }
+    .precision-built-single-box {
+        width: calc(51.7% - 12px);
+        padding: 15px 15px;
+    }
+    .precision-built-boxes {
+        gap: 12px;
+    }
+    .pbs-box-index h5 {
+        line-height: 100%;
+        font-size: 16px;
+    }
+    .pbs-box-index {
+        margin-bottom: 10px;
+    }
+    .pbs-box-content h4 {
+        line-height: 100%;
+        font-size: 20px;
+    }
+    .pbs-box-content p {
+        font-size: 10px;
+    }
+    .gold-standard-section .precision-built-left {
+        width: 100%;
+    }
+}

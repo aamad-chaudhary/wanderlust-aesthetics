@@ -1,0 +1,301 @@
+.meet-team-container {
+    max-width: 1146px;
+    margin: 0 auto;
+}
+.meet-team-section {
+    padding: 150px 0px 100px;
+    background-color: #2D3C34;
+}
+.meet-team-flex {
+    gap: 18px;
+}
+.team-member-card {
+    width: calc(25% - 14px);
+    position: relative;
+}
+.team-member-card-image {
+    background-color: #d9d9d9;
+    display: block;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.team-member-card-image img {
+    display: block;
+}
+.team-member-front-info {
+   margin: 16px 0px 0px;
+}
+.team-member-front-info h6, .team-member-meta h6 {
+    color: #C5A059;
+    text-align: center;
+    font-family: 'Jost';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 112%; /* 112% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 1px solid #0F1714;
+    border-radius: 20px;
+    padding: 4px 10px 5px 8px;
+    max-width: max-content;
+}
+.team-member-front-info p, .team-member-meta p {
+    color:  #0F1714;
+    font-size: 12.8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 160% */
+    margin: 5px 0px 0px;
+}
+.team-member-card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #C5A167;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: .4s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+}
+.team-member-card-back-inner {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px 27px;
+}
+.team-member-meta h6 {
+    color: #0F1714;
+}
+.team-member-social-links {
+    margin: 0 0  16px;
+}
+.team-member-social-links ul {
+    display: flex;
+    gap: 14px;
+}
+.team-member-card:hover .team-member-card-back {
+    opacity: 1;
+    visibility: visible;
+}
+.meet-team-link {
+    margin: 90px 0px 0px;
+    text-align: center;
+}
+.meet-team-link a {
+    padding: 15px 35px;
+    border-radius: 100px;
+    border: 1px solid #C5A167;
+    color: var(--twine);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+.meet-team-head {
+    text-align: center;
+    margin: 0 0 30px;
+}
+.meet-team-head h5 {
+    color: var(--spring-wood);
+    text-align: center;
+    font-family: 'Jost';
+    font-size: 20.8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.who-we-are-section {
+    padding: 84px 0px 150px;
+    background-color: var(--spring-wood);
+}
+.who-we-are-container {
+    padding: 0 20px;
+    max-width: 1186px;
+    margin: 0 auto;
+}
+.who-we-are-star {
+    margin: 0 13px 0px 0px;
+}
+.who-we-are-head-flex span {
+    border: 1px solid #0F1714;
+    border-radius: 20px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #0F1714;
+    padding: 0px 12px;
+    height: 23px;
+}
+.who-we-are-head-flex {
+    align-items: center;
+    gap: 4px;
+    margin: 0 0 37px;
+}
+.who-we-are-star svg {
+    display: block;
+}
+.who-we-are-head-text h3 {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: 'Jost';
+    color: #0F1714;
+}
+.who-we-are-head-text h3:not(:last-child) {
+    margin-bottom: 5px;
+}
+.who-we-are-head-text {
+    padding-bottom: 55px;
+    border-bottom: 1px solid #0F1714;
+}
+.who-we-description {
+    padding: 39px 0px 25px;
+    margin: 0 0 25px;
+}
+.who-we-description-left {
+    width: 38%;
+}
+.who-we-description-right {
+    width: 42%;
+}
+.who-we-description-flex {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.description-content-left p, .description-content-right p {
+    color: #0F1714;
+    font-family: 'Jost';
+    font-size: 20px;
+    font-style: normal;
+    line-height:  140.8%; /* 140.8% */
+}
+.description-content-left p {
+    font-weight: 400;
+}
+.description-content-right p {
+    font-weight: 300;
+}
+.description-content-left p:not(:last-child), .description-content-right p:not(:last-child) {
+    margin-bottom: 30px;
+}
+@media only screen and (max-width: 1028px) {
+    .meet-team-container {
+        padding: 0 20px;
+    }
+    .meet-team-section {
+        padding: 80px 0px;
+    }
+    .meet-team-link {
+        margin: 60px 0px 0px;
+    }
+    .team-member-card-back-inner {
+        padding: 15px 15px;
+    }
+    .team-member-front-info h6, .team-member-meta h6 {
+        text-align: left;
+    }
+    .who-we-description-right {
+        width: 50%;
+    }
+    .who-we-are-section {
+        padding: 80px 0px 100px;
+    }
+    .who-we-are-head-flex {
+        margin: 0 0 30px;
+    }
+    .who-we-are-head-text {
+        padding-bottom: 40px;
+    }
+    .who-we-description {
+        padding: 30px 0px 20px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .meet-team-section {
+        padding: 40px 0px;
+    }
+    .team-member-card {
+        width: calc(33% - 10px);
+    }
+    .meet-team-link {
+        margin: 40px 0px 0px;
+    }
+    .who-we-are-section {
+        padding: 60px 0px;
+    }
+    .who-we-are-head-flex {
+        margin: 0 0 20px;
+    }
+    .who-we-are-head-text h3 {
+        font-size: 32px;
+    }
+    .who-we-are-head-text {
+        padding-bottom: 30px;
+    }
+    .who-we-description-left {
+        width: 42%;
+    }
+    .description-content-left p, .description-content-right p {
+        font-size: 18px;
+    }
+    .who-we-description {
+        padding: 20px 0px;
+        margin: 0 0 10px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .meet-team-section {
+        padding: 20px 0px;
+    }
+    .team-member-card {
+        width: 100%;
+    }
+    .meet-team-link {
+        margin: 20px 0px 0px;
+    }
+    .meet-team-link a {
+        padding: 15px 20px;
+    }
+    .who-we-are-section {
+        padding: 20px 0px;
+    }
+    .who-we-are-head-text h3 {
+        font-size: 24px;
+    }
+    .who-we-are-head-text {
+        padding-bottom: 20px;
+    }
+    .who-we-description-left {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+    .who-we-description-right {
+        width: 100%;
+    }
+    .description-content-left p:not(:last-child), .description-content-right p:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    .who-we-description {
+        padding: 20px 0px 10px;
+        margin: 0 0 10px;
+    }
+}

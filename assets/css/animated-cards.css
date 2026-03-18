@@ -1,0 +1,157 @@
+.animated-cards-section {
+  position: relative;
+}
+.animated-cards-wrapper {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  position: relative;
+}
+.animated-card-single {
+  width: calc(100vw - (var(--card-inset-level) * var(--_card-inset-spacing)));
+  --_card-inset-spacing: 63px;
+  grid-row: 1 / -1;
+  grid-column: 1 / -1;
+  position: relative;
+  z-index: var(--card-inset-level, 0);
+  padding: 170px calc((100vw - 1250px) * (123 / 296)) 187px calc((100vw - 1250px) * (173 / 296));
+  box-shadow: 13px -1px 16.1px -5px rgba(0, 0, 0, 0.25);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: absolute;
+    top: 0;
+    left: 0;
+    will-change: transform;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: var(--card-inset-level, 0);
+}
+.animated-card-single[data-product-stage-cards="card"] {
+  z-index: 0;
+  width: 100vw;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.animated-card-single {
+  will-change: transform;
+}
+.anitamed-card-single-image {
+    width: 30.537%;
+}
+.anitamed-card-single-content {
+    width: 56.833%;
+}
+.anitamed-card-single-flex {
+    align-items: center;
+    gap: 26px;
+}
+.anitamed-card-single-content p {
+    color: var(--twine);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.anitamed-card-single-content h2 {
+    margin: 17px 0px 10px;
+    font-size: 96px;
+    line-height: 100%;
+    font-weight: 700;
+    color: var(--racing-green);
+}
+.anitamed-card-single-copy {
+    max-width: 453px;
+    margin-bottom: 18px;
+}
+.anitamed-card-single-copy p {
+    font-size: 16px;
+    color: var(--racing-green);
+    line-height: 180%;
+    text-transform: initial;
+    letter-spacing: normal;
+    font-weight: 400;
+}
+.animated-card-single-inner {
+    width: 100%;
+}
+.sticky-cards-wrapper {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+.animated-cards-main {
+    position: relative;
+}
+.animated-cards-wrapper {
+    position: relative;
+}
+.bg-color-light .creative-btn--wrap .creative-slide--btn {
+    color: var(--racing-green);
+}
+.bg-color-dark .anitamed-card-single-content h2 {
+    color: var(--spring-wood);
+}
+.bg-color-dark .anitamed-card-single-copy p {
+    color: var(--spring-wood);
+}
+.bg-color-twine .anitamed-card-single-content p {
+    color: var(--spring-wood);
+}
+.bg-color-twine .anitamed-card-single-copy p {
+    color: var(--racing-green);
+}
+.bg-color-twine .creative-btn--wrap .creative-slide--btn {
+    color: var(--spring-wood);
+    border-color: var(--spring-wood);
+}
+.anitamed-card-single-image img {
+    width: 100%;
+}
+@media only screen and (max-width: 1251px) {
+    .animated-card-single {
+        padding: 170px 60px 187px 60px;
+    }
+}
+@media only screen and (max-width: 1028px) {
+    .animated-card-single {
+        padding: 120px 50px 120px 50px;
+    }
+    .anitamed-card-single-image {
+        width: 100%;
+    }
+    .anitamed-card-single-content {
+        width: 100%;
+    }
+    .anitamed-card-single-content h2 {
+        font-size: 80px;
+    }
+    .anitamed-card-single-copy {
+        max-width: 600px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .anitamed-card-single-content h2 {
+        font-size: 60px;
+    }
+    .anitamed-card-single-copy {
+        max-width: 100%;
+        margin-bottom: 18px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .anitamed-card-single-content h2 {
+        font-size: 42px;
+    }
+    .animated-card-single {
+        width: 100%;
+        padding: 20px 20px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+    }
+    .animated-card-single[data-product-stage-cards="card"] {
+        border-radius: 0px !important;
+    }
+}

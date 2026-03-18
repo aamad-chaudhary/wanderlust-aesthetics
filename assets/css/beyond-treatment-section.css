@@ -1,0 +1,212 @@
+.beyond-treatment-section {
+    padding: 135px 0px 118px;
+    background-color: #1F403E;
+}
+.beyond-treatment-container {
+    max-width: 1272px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.beyond-treatment-left {
+    width: 47.322%;
+}
+.beyond-treatment-right {
+    width: 46.76%;
+}
+.beyond-treatment-flex {
+    justify-content: space-between;
+}
+.beyond-treatment-head span {
+    color: var(--gold-for-button, #C5A167);
+    font-family: Jost;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 133%; /* 133.333% */
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+}
+.beyond-treatment-head h2 {
+    color: #F5F1EA;
+    font-family: "Cormorant Garamond";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 100% */
+    max-width: 400px;
+}
+.beyond-treatment-copy {
+    margin: 25px 0px 54px;
+}
+.beyond-treatment-copy p {
+    color: var(--cream, #F5F1EA);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 162.5%; /* 162.5% */
+    opacity: .8;
+}
+.beyond-treatment-boxes {
+    justify-content: space-between;
+    gap: 54px 0px;
+}
+.beyond-treatment-box {
+    width: 46%;
+}
+.beyond-treatment-box h4 {
+    color: #C5A167;
+    font-family: "Cormorant Garamond";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 240% */
+}
+.beyond-treatment-box p {
+    color: var(--cream, #F5F1EA);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 170%; /* 182.813% */
+    opacity: .8;
+    margin: 5px 0px 0px;
+}
+.beyond-treatment-link a {
+    color: #0F1714;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 150% */
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    padding: 21px 48px;
+    border-radius: 100px;
+    background: #C5A167;
+    transition: .3s ease-in-out;
+    border: 1px solid #C5A167;
+}
+.beyond-treatment-link {
+    margin: 57px 0px 0px;
+}
+.beyond-treatment-link a:hover {
+    background-color: transparent;
+    color: #C5A167;
+}
+.beyond-treatment-image-box {
+    position: relative;
+}
+.beyond-treatment-image {
+    border-top-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+    overflow: hidden;
+}
+.beyond-treatment-image-box-text {
+    border-left: 4px solid #B6935D;
+    background: #1C2B27;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    padding: 36px 50px;
+    left: -27px;
+    bottom: -80px;
+}
+.beyond-treatment-image-box-text h5 {
+    color: #F5F1EA;
+    font-family: "Cormorant Garamond";
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 103%; /* 103.125% */
+}
+.beyond-treatment-image-box-text span {
+    margin: 6px 0px 0px;
+    color: #C5A167;
+    font-family: Jost;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 13.5px; /* 150% */
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+@media only screen and (max-width: 1028px) {
+    .beyond-treatment-section {
+        padding: 80px 0px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .beyond-treatment-head h2 {
+        font-size: 42px;
+    }
+    .beyond-treatment-copy p {
+        font-size: 16px;
+    }
+    .beyond-treatment-copy {
+        margin: 20px 0px 30px;
+    }
+    .beyond-treatment-boxes {
+        gap: 30px 0px;
+    }
+    .beyond-treatment-link {
+        margin: 25px 0px 0px;
+    }
+    .beyond-treatment-image-box-text {
+        padding: 25px;
+        bottom: -60px;
+    }
+    .beyond-treatment-section {
+        padding: 60px 0px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .beyond-treatment-section {
+        padding: 20px 0px 60px;
+    }
+    .beyond-treatment-left {
+        width: 100%;
+    }
+    .beyond-treatment-head h2 {
+        font-size: 36px;
+    }
+    .beyond-treatment-copy {
+        margin: 15px 0px 20px;
+    }
+    .beyond-treatment-copy p {
+        font-size: 14px;
+    }
+    .beyond-treatment-box p {
+        font-size: 14px;
+    }
+    .beyond-treatment-boxes {
+        gap: 20px 0px;
+    }
+    .beyond-treatment-box {
+        width: 48%;
+    }
+    .beyond-treatment-link {
+        margin: 20px 0px 0px;
+    }
+
+    .beyond-treatment-link a {
+        width: 100%;
+    }
+    .beyond-treatment-right {
+        margin: 20px 0px 0px;
+        width: 100%;
+    }
+    .beyond-treatment-image {
+        border-top-left-radius: 80px;
+        border-bottom-right-radius: 80px;
+    }
+    .beyond-treatment-image-box-text {
+        left: 0;
+        right: 0;
+        margin: auto;
+        max-width: 80%;
+        bottom: -40px;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+}

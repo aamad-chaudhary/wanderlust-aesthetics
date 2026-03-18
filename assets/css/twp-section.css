@@ -1,0 +1,116 @@
+.twp-section {
+    padding: 50px 0px 90px;
+    background-color: #2D3C34;
+}
+.cotnainer {
+    max-width: 1152px;
+    margin: 0 auto;
+}
+.twp-head {
+    text-align: center;
+}
+.twp-head h6 {
+    color: var(--twine);
+    font-size: 12px;
+    font-family: 'Jost';
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.twp-head h5 {
+    margin: 15px 0px 0px;
+    color: var(--spring-wood);
+    font-size: 20.8px;
+    text-transform: uppercase;
+    font-family: 'Jost';
+    font-weight: 400;
+}
+.twp-main {
+    margin: 13px 0px 0px;
+}
+.twp-single-box {
+    width: 29.862%;
+    padding: 40px 20px 65px;
+    border-bottom: 1px solid #C5A16733;
+    position: relative;
+}
+.twp-flex {
+    justify-content: space-between;
+}
+.twp-box-content {
+    margin: 34px 0px 0px;
+}
+.twp-box-content h4 {
+    color: var(--spring-wood);
+    font-size: 20.8px;
+    text-transform: uppercase;
+    font-family: 'Jost';
+    font-weight: 400;
+}
+.twp-box-copy {
+    margin: 10px 0px 0px;
+    max-width: 260px;
+}
+.twp-box-copy p {
+    color: #F5F1EA;
+    font-weight: 300;
+    font-size: 15.2px;
+    line-height: 180%;
+}
+.twp-single-box:nth-child(2) {
+    padding-top: 80px;
+}
+@media only screen and (max-width: 1028px) {
+    .twp-section {
+        padding: 40px 0px 80px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .twp-section {
+        padding: 40px 0px 80px;
+    }
+    .twp-single-box {
+        padding: 40px 20px 40px;
+        width: 32%;
+    }
+    .twp-single-box:nth-child(2) {
+        padding-top: 60px;
+    }
+    .twp-box-copy {
+        max-width: 100%;
+    }
+    .twp-single-box:not(:last-child)::after {
+        right: -15px;
+        max-height: 265px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .twp-single-box {
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .twp-main {
+        padding: 0 20px;
+    }
+    .twp-single-box:nth-child(2) {
+        padding-top: 20px;
+    }
+    .twp-section {
+        padding: 20px 0px;
+    }
+    .twp-single-box:last-child {
+        border-bottom: 0px;
+    }
+    .twp-box-content {
+        margin: 20px 0px 0px;
+    }
+    .twp-single-box:nth-child(even) .twp-box-icon {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .twp-single-box:nth-child(even) .twp-box-content {
+        text-align: right;
+    }
+    .twp-single-box:not(:last-child)::after {
+        display: none;
+    }
+}

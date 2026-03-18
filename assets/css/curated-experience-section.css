@@ -1,0 +1,173 @@
+.curated-experience-section {
+    padding: 106px 0px;
+    background-color: #F5F1EA;
+}
+.curated-experience-container {
+    max-width: 1152px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.curated-experience-left {
+    width: 46.86%;
+}
+.curated-experience-right {
+    width: 41.1%;
+}
+.curated-experience-flex {
+    justify-content: space-between;
+}
+.curated-experience-sub-head h6 {
+    color: #C5A167;
+    font-family: Jost;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 133.33%; /* 133.333% */
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+}
+.curated-experience-heading {
+    max-width: 414px;
+    margin: 33px 0px;
+}
+.curated-experience-heading h2 {
+    color: #0F1714;
+    font-family: "Cormorant Garamond";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108%; /* 108.333% */
+}
+.curated-experience-body p {
+    color: rgba(15, 23, 20, 0.70);
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 162.5%; /* 162.5% */
+}
+.curated-experience-list {
+    margin: 41px 0px 0px;
+}
+.curated-experience-flex {
+    justify-content: space-between;
+    gap: 15px 0px;
+}
+.curated-experience-list-item {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+}
+.curated-experience-list-item-text p {
+    color: var(--Ink-for-text, #0F1714);
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 240%; /* 240% */
+}
+.curated-experience-image img {
+    width: 100%;
+    display: block;
+}
+.curated-experience-image {
+    border: 1px solid rgba(182, 147, 93, 0.10);
+    background: #FFF;
+    box-shadow: 0 40px 100px -20px rgba(28, 43, 39, 0.10);
+    padding: 13px;
+}
+.curated-experience-image-box {
+    position: relative;
+}
+.curated-experience-box-text {
+    position: absolute;
+    border-left: 4px solid #B6935D;
+    background: #1C2B27;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    padding: 30px 18px 30px 50px;
+    left: -39px;
+    bottom: -48px;
+}
+.curated-experience-box-text h6 {
+    color: #C5A167;
+    font-family: Jost;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 150% */
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+.curated-experience-box-text h4 {
+    color: #F5F1EA;
+    font-family: "Cormorant Garamond";
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 103.125%; /* 103.125% */
+}
+.curated-experience-box-text span {
+    color: #F5F1EA;
+    font-family: Jost;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 150%; /* 150% */
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+@media only screen and (max-width: 1028px) {
+    .curated-experience-section {
+        padding: 80px 0px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .curated-experience-heading h2 {
+        font-size: 42px;
+    }
+    .curated-experience-heading {
+        max-width: 100%;
+        margin: 20px 0px;
+    }
+    .curated-experience-section {
+        padding: 60px 0px;
+    }
+    .curated-experience-left {
+        width: 50%;
+    }
+    .curated-experience-box-text {
+        padding: 20px;
+    }
+    .curated-experience-body p {
+        font-size: 16px;
+    }
+    .curated-experience-list {
+        margin: 30px 0px 0px;
+    }
+    .curated-experience-list-item-text p {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .curated-experience-section {
+        padding: 20px 0px 60px;
+    }
+    .curated-experience-left {
+        width: 100%;
+    }
+    .curated-experience-heading h2 {
+        font-size: 36px;
+    }
+    .curated-experience-heading {
+        margin: 15px 0px;
+    }
+    .curated-experience-right {
+        width: 100%;
+    }
+    .curated-experience-box-text {
+        left: 0;
+        right: 0;
+        margin: auto;
+        max-width: 80%;
+    }
+}

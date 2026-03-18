@@ -1,0 +1,211 @@
+.treatment-grid-section {
+    padding: 199px 0px 207px;
+    background-color: var(--spring-wood);
+}
+.treatment-grid-head {
+    max-width: 1151px;
+    margin: 0 auto;
+    padding: 0 20px 20px;
+    border-bottom: 1px solid rgba(28, 43, 39, 0.10);
+}
+.treatment-grid-head-flex {
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.treatment-grid-head-left span {
+    color: #B6935D;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    display: block;
+}
+.treatment-grid-head-left h3 {
+    color: #1C2B27;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    margin: 8px 0px 0px;
+}
+.treatments-count {
+    color: #9CA3AF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.33%;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+.treatment-grid-container {
+    max-width: 988px;
+    margin: 0 auto;
+    padding: 68px 20px 0px;
+}
+.treatment-card {
+    width: calc(33% - 19px);
+}
+.treatment-grid-flex {
+    gap: 48px 33px;
+}
+.treatment-card-image {
+    border: 1px solid rgba(28, 43, 39, 0.05);
+    background: #FFF;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    padding: 9px;
+    overflow: hidden;
+}
+.treatment-card-image img {
+    width: 100%;
+    transition: .3s ease-in-out;
+    height: 100%;
+}
+.treatment-card-image a {
+    display: block;
+}
+.treatment-card-info {
+    padding: 23px 0px 0px;
+}
+.treatment-card-info span {
+    color: #B6935D;
+    font-family: 'Jost';
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+.treatment-card-info .treatment-title a, .treatment-card-info .treatment-title h3 {
+    color: #1C2B27;
+    font-family: "Cormorant Garamond";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.treatment-title {
+    margin: 8px 0px 14px;
+}
+.treatment-excerpt p {
+    color: #6B7280;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 162.5%;
+}
+.treatment-link {
+    margin: 21px 0px 0px;
+}
+.treatment-link a {
+    color: #0F1714;
+    font-family: 'Jost';
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+    padding: 0 0 6px;
+    display: block;
+    max-width: fit-content;
+}
+.treatment-link a::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    background-color: #C5A167;
+    transition: .3s ease-in-out;
+}
+.treatment-card:hover .treatment-link a::after {
+    left: auto;
+    width: 0;
+    right: 0;
+}
+.treatment-card:hover .treatment-card-image img {
+    transform: scale(1.1);
+}
+@media only screen and (max-width: 1028px) {
+    .treatment-grid-section {
+        padding: 120px 0px;
+    }
+    .treatment-grid-container {
+        padding: 40px 20px 0px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .treatment-grid-section {
+        padding: 80px 0px;
+    }
+    .treatment-grid-flex {
+        gap: 30px;
+    }
+    .treatment-card {
+        width: calc(33% - 18px);
+    }
+    .treatment-card-info {
+        padding: 15px 0px 0px;
+    }
+    .treatment-title {
+        margin: 5px 0px 10px;
+    }
+    .treatment-link {
+        margin: 15px 0px 0px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .treatment-grid-section {
+        padding: 40px 0px 20px;
+    }
+    .treatment-grid-head-left h3 {
+        font-size: 32px;
+        line-height: 100%;
+        margin: 5px 0px 0px;
+    }
+    .treatment-grid-head-right {
+        margin: 20px 0px 0px;
+        width: 100%;
+        text-align: right;
+    }
+    .treatment-grid-section .container {
+        padding: 0 20px;
+    }
+    .treatment-grid-head {
+        padding: 0 0 10px;
+    }
+    .treatment-grid-container {
+        padding: 10px 0px 0px;
+    }
+    .treatment-grid-flex {
+        gap: 10px;
+    }
+    .treatment-card {
+        width: calc(50% - 5px);
+    }
+    .treatment-card-image {
+        padding: 5px;
+    }
+    .treatment-card-info {
+        padding: 10px 0px 0px;
+    }
+    .treatment-card-info span {
+        display: block;
+    }
+    .treatment-card-info .treatment-title a, .treatment-card-info .treatment-title h3 {
+        font-size: 20px;
+        line-height: 132%;
+    }
+    .treatment-excerpt p {
+        line-height: 145%;
+    }
+    .treatment-link {
+        margin: 10px 0px 0px;
+    }
+}

@@ -1,0 +1,170 @@
+.aesthetic-voyage-section {
+    padding: 98px 0px 113px;
+    background-color: #fff;
+}
+.aesthetic-voyage-container {
+    max-width: 1132px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.aesthetic-voyage-left {
+    width: 47.254%;
+}
+.aesthetic-voyage-right {
+    width: 44.506%;
+}
+.aesthetic-voyage-flex {
+    justify-content: space-between;
+    align-items: center;
+}
+.aesthetic-voyage-image img {
+    display: block;
+    width: 100%;
+}
+.aesthetic-voyage-head span {
+    color: #C5A167;
+    font-family: 'Jost';
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 6.6px;
+    text-transform: uppercase;
+}
+.aesthetic-voyage-head h3 {
+    color: #0F1714;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 100%;
+    max-width: 300px;
+    margin: 23px 0px 0px;
+}
+.aesthetic-voyage-steps {
+    margin: 47px 0px 0px;
+}
+.aesthetic-voyage-content {
+    padding: 0 0 0 88px;
+}
+.aesthetic-voyage-step:not(:last-child) {
+    margin-bottom: 40px;
+}
+.aesthetic-voyage-content h3 {
+    color: #0F1714;
+    font-family: 'Cormorant Garamond';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 114.286%;
+    letter-spacing: -0.6px;
+    margin: 0 0 14px;
+}
+.aesthetic-voyage-content p {
+    color: rgba(15, 23, 20, 0.50);
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 162.5%;
+}
+.aesthetic-voyage-step {
+    position: relative;
+}
+.aesthetic-voyage-steps {
+    counter-reset: div;
+}
+.aesthetic-voyage-step::after {
+    content: "0" counter(div, decimal);
+    counter-increment: div;
+    position: absolute;
+    color: #C5A167;
+    font-family: 'Cormorant Garamond';
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 160%;
+    left: 0;
+    top: 0;
+    line-height: 93.33%;
+    pointer-events: none;
+    touch-action: none;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 1px solid rgba(197, 161, 103, 0.20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-bottom: 12px;
+}
+.aesthetic-voyage-image {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.20) 100%), lightgray -129px 0px / 150% 100% no-repeat;
+    background-blend-mode: saturation, normal;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+@media only screen and (max-width: 1028px) {
+    .aesthetic-voyage-section {
+        padding: 80px 0px;
+    }
+    .aesthetic-voyage-right {
+        width: 48%;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .aesthetic-voyage-head h3 {
+        font-size: 42px;
+    }
+    .aesthetic-voyage-steps {
+        margin: 30px 0px 0px;
+    }
+    .aesthetic-voyage-content h3 {
+        font-size: 24px;
+    }
+    .aesthetic-voyage-step:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    .aesthetic-voyage-content {
+        padding: 0 0 0 60px;
+    }
+    .aesthetic-voyage-step::after {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+    .aesthetic-voyage-section {
+        padding: 60px 0px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .aesthetic-voyage-section {
+        padding: 20px 0px;
+    }
+    .aesthetic-voyage-left {
+        width: 100%;
+    }
+    .aesthetic-voyage-right {
+        width: 100%;
+        margin: 20px 0px 0px;
+    }
+    .aesthetic-voyage-head h3 {
+        font-size: 32px;
+        margin: 15px 0px 0px;
+    }
+    .aesthetic-voyage-step::after {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+        padding-bottom: 4px;
+    }
+    .aesthetic-voyage-content {
+        padding: 0 0 0 40px;
+    }
+    .aesthetic-voyage-step:not(:last-child) {
+        margin-bottom: 15px;
+    }
+    .aesthetic-voyage-content h3 {
+        margin: 0 0 10px;
+    }
+}

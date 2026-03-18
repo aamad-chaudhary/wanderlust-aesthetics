@@ -1,0 +1,196 @@
+.footer-container {
+    max-width: 1210px;
+    margin: 0 auto;
+}
+.site-footer-top {
+    padding: 108px 0px 52px;
+    background-color: var(--outer-space);
+}
+.site-footer-bottom {
+    padding: 20px 0px 29px;
+    background-color: var(--outer-space);
+}
+.top-footer-left {
+    width: 17.274%;
+}
+.top-footer-right {
+    width: 59.505%;
+}
+.footer-top-flex {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer-logo a {
+    display: block;
+}
+.footer-logo a img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.footer-social {
+    margin: 12px 0px 0px;
+}
+.footer-social ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.top-footer-right-flex {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer-column-left {
+    width: 28.75%;
+}
+.footer-column-right {
+    width: 44.725%;
+}
+.footer-column-heading h4 {
+    font-size: 20.8px;
+    font-family: 'Jost';
+    color: var(--spring-wood);
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.footer-column-heading, .footer-location, .footer-timing, .footer-tel {
+    padding: 12px 0px;
+    border-bottom: 1px solid var(--spring-wood);
+    transition: .3s ease-in-out;
+}
+.footer-column-heading {
+    padding-top: 0px;
+}
+.footer-tel {
+    padding-bottom: 0px;
+    border: 0px;
+}
+.footer-location a, .footer-timing, .footer-tel a {
+    color: var(--spring-wood);
+    font-family: 'Jost';
+    font-size: 14.4px;
+    text-transform: uppercase;
+}
+.footer-menu-list ul li a {
+    display: flex;
+    justify-content: space-between;
+    color: var(--spring-wood);
+    font-family: 'Jost';
+    font-size: 14.4px;
+    text-transform: uppercase;
+    transition: .3s ease-in-out;
+}
+.footer-menu-list ul li {
+    padding-bottom: 6.08px;
+    margin-bottom: 16.3px;
+    border-bottom: 1px solid var(--spring-wood);
+}
+.footer-menu-list ul li:last-child {
+    margin-bottom: 0px;
+}
+.footer-copyrights p {
+    font-size: 12px;
+    line-height: 150%;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.footer-column-mobil-heading {
+    display: none;
+}
+.footer-social ul li a:hover svg path {
+    fill: var(--twine);
+}
+.footer-location a:hover, .footer-tel a:hover {
+    color: var(--twine);
+}
+.footer-menu-list ul li a:hover {
+    color: var(--twine);
+}
+@media only screen and (max-width: 1280px) {
+    .footer-container {
+        padding: 0 20px;
+    }
+}
+@media only screen and (max-width: 1028px) {
+    .site-footer-top {
+        padding: 80px 0px 50px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .top-footer-right {
+        width: 67%;
+    }
+    .footer-column-left {
+        width: 35%;
+    }
+    .footer-column-right {
+        width: 50%;
+    }
+    .site-footer-top {
+        padding: 40px 0px 40px;
+    }
+    .site-footer-bottom {
+        padding: 15px 0px 20px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .site-footer-top {
+        padding: 20px 0px 20px;
+    }
+    .top-footer-left {
+        width: 100%;
+    }
+    .top-footer-right {
+        margin: 20px 0px 0px;
+        width: 100%;
+    }
+    .footer-column-left {
+        width: 100%;
+    }
+    .footer-column-right {
+        width: 100%;
+        margin: 12px 0px 0px;
+    }
+    .footer-copyrights p {
+        text-align: center;
+    }
+    .site-footer-bottom {
+        padding: 15px 0px;
+    }
+    .footer-tel {
+        border-bottom: 1px solid var(--spring-wood);
+        padding-bottom: 12px;
+    }
+    .footer-column-heading {
+        text-align: center;
+    }
+    .footer-column-heading, .footer-location, .footer-timing, .footer-tel {
+        text-align: center;
+    }
+    .footer-column-right {
+        width: 100%;
+        margin: 12px 0px 0px;
+    }
+    .footer-column-mobil-heading {
+        padding: 0 0 12px;
+        border-bottom: 1px solid var(--spring-wood);
+        display: block;
+        text-align: center;
+        margin: 0 0 15px;
+    }
+    .footer-column-mobil-heading h4, .footer-column-heading h4 {
+        font-size: 24.8px;
+        font-family: 'Jost';
+        color: var(--spring-wood);
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    .footer-social ul li a svg {
+        width: 20px;
+        height: 20px;
+    }
+    .footer-social {
+        margin: 25px 0px 0px;
+    }
+}

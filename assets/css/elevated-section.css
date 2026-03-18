@@ -1,0 +1,141 @@
+.elevated-section {
+    background-color: var(--spring-wood);
+    overflow: hidden;
+}
+.elevated-main {
+    position: relative;
+}
+.elevated-head-text h2 {
+    font-size: 370px;
+    font-family: 'Jost';
+    font-weight: 400;
+    color: rgba(45, 60, 52, .1);
+    text-transform: uppercase;
+    line-height: 100%;
+}
+.elevated-head-text {
+    position: absolute;
+    top: -54px;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.elevated-container {
+    padding-top: 117px;
+    position: relative;
+}
+.elevated-backgorund img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.elevated-content {
+    position: absolute;
+    top: 350px;
+    left: calc((100vw - 1250px) * (173 / 296));
+    max-width: 600px;
+}
+.elevated-content h2 {
+    font-size: 48px;
+    text-transform: uppercase;
+    font-family: 'Jost';
+    font-weight: 400;
+    color: #2D3C34;
+    line-height: normal;
+}
+.elevated-copy {
+    margin: 30px 0px;
+}
+.elevated-copy p {
+    font-size: 16px;
+    color: #2D3C34;
+}
+.elevated-buttons {
+    display: flex;
+    gap: 24px;
+}
+.elevated-buttons .creative-btn--wrap .creative-slide--btn {
+    color: var(--twine);
+    border-color: var(--twine);
+}
+.elevated-buttons .creative-btn--wrap .creative-slide--btn:hover {
+    color: var(--racing-green);
+}
+@media only screen and (max-width: 1366px) {
+    .elevated-head-text h2 {
+        font-size: 360px;
+    }
+}
+@media only screen and (max-width: 1320px) {
+    .elevated-head-text h2 {
+        font-size: 350px;
+    }
+}
+@media only screen and (max-width: 1280px) {
+    .elevated-head-text h2 {
+        font-size: 340px;
+    }
+    .elevated-content {
+        left: 70px;
+    }
+}
+@media only screen and (max-width: 1028px) {
+    .elevated-head-text {
+        top: -39px;
+    }
+    .elevated-head-text h2 {
+        font-size: 27vw;
+    }
+    .elevated-content {
+        top: 250px;
+        left: 40px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .elevated-head-text {
+        top: -31px;
+    }
+    .elevated-content {
+        top: 200px;
+        left: 20px;
+    }
+    .elevated-content h2 {
+        font-size: 42px;
+    }
+    .elevated-copy {
+        margin: 15px 0px;
+    }
+    .elevated-container {
+        padding-top: 75px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .elevated-head-text {
+        top: -14px;
+    }
+    .elevated-container {
+        padding-top: 38px;
+    }
+    .elevated-container {
+        padding-top: 38px;
+    }
+    .elevated-content {
+        position: relative;
+        padding: 15px;
+        top: 0;
+        left: 0;
+        margin: -55px 10px 0px;
+        background-color: var(--spring-wood);
+    }
+    .elevated-content h2 {
+        font-size: 32px;
+        letter-spacing: 0px;
+        line-height: 100%;
+    }
+    .elevated-buttons {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}

@@ -1,0 +1,148 @@
+.dmc-banner-section {
+    height: 85vh;
+    position: relative;
+}
+.dmc-banner-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.dmc-banner-main {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.dmc-banner-container {
+    width: 100%;
+    max-width: 1174px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.dmc-banner-sub-head h6 {
+    color: #C5A167;
+    font-family: 'Jost';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 133.33%; /* 133.333% */
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+.dmc-banner-content {
+    max-width: 575px;
+}
+.dmc-banner-heading h1 {
+    color: #fff;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 100% */
+}
+.dmc-banner-heading h1 span {
+    font-family: inherit;
+    font-style: italic;
+    font-weight: 300;
+    color: #C5A167;
+}
+.dmc-banner-heading {
+    margin: 20px 0px 15px;
+}
+.dmc-banner-copy p {
+    color: rgba(249, 247, 242, 0.80);
+    font-family: 'Jost';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%; /* 140% */
+    letter-spacing: 0.5px;
+}
+.dmc-banner-links {
+    margin: 43px 0px 0px;
+}
+.dmc-banner-links a {
+    color: #fff;
+    font-family: 'Jost';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.33%; /* 133.333% */
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    padding: 16px 40px;
+    border: 1px solid;
+    border-radius: 50px;
+    transition: .3s ease-in-out;
+}
+.dmc-banner-links {
+    display: flex;
+    gap: 24px;
+}
+.dmc-banner-links .dmc-banner-link-one {
+    background: #C5A167;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.10), 0 4px 6px -4px rgba(0, 0, 0, 0.10);
+    border-color: #C5A167;
+    color: #1F403E;
+    font-weight: 700;
+}
+.dmc-banner-links .dmc-banner-link-two {
+    border-color: #fff;
+}
+.dmc-banner-links .dmc-banner-link-one:hover {
+    color: #C5A167;
+    background-color: transparent;
+}
+.dmc-banner-links .dmc-banner-link-two:hover {
+    background-color: #fff;
+    color: #C5A167;
+}
+@media only screen and (max-width: 1028px) {
+    .dmc-banner-section {
+        height: 50vh;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .dmc-banner-heading h1 {
+        font-size: 60px;
+    }
+    .dmc-banner-links {
+        margin: 30px 0px 0px;
+    }
+    .dmc-banner-heading {
+        max-width: 350px;
+    }
+    .dmc-banner-section {
+        height: 45vh;
+    }
+    .dmc-banner-copy p {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .dmc-banner-heading h1 {
+        font-size: 42px;
+    }
+    .dmc-banner-heading {
+        margin: 10px 0px;
+    }
+    .dmc-banner-sub-head h6 {
+        letter-spacing: 2.5px;
+    }
+    .dmc-banner-copy p {
+        font-size: 14px;
+    }
+    .dmc-banner-links {
+        margin: 15px 0px 0px;
+        gap: 12px;
+    }
+    .dmc-banner-links a {
+        padding: 12px 20px;
+        letter-spacing: 2px;
+    }
+}

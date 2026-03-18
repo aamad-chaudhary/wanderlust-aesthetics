@@ -1,0 +1,118 @@
+.comprehensive-care-section {
+    padding: 158px 0px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.comprehensive-care-container {
+    max-width: 1310px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.comprehensive-care-head span {
+    color: #C5A167;
+    text-align: center;
+    font-family: 'Jost';
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 150% */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.comprehensive-care-head {
+    text-align: center;
+}
+.comprehensive-care-head h2 {
+    color: #F5F1EA;
+    text-align: center;
+    font-family: 'Cormorant Garamond';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 100% */
+    margin: 16px 0px 0px;
+}
+.comprehensive-care-cards {
+    margin: 68px 0px 0px;
+}
+.comprehensive-care-card {
+    width: calc(33% - 18px);
+    border: 0.3px solid #C5A167;
+    background: #F5F1EA;
+    padding: 41px 35px 45px;
+}
+.comprehensive-care-cards {
+    gap: 24px 32px;
+}
+.cc-card-heading {
+    margin: 24px 0px 15px;
+}
+.cc-card-heading h3 {
+    color: #C5A167;
+    font-family: 'Cormorant Garamond';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.33%; /* 133.333% */
+}
+.cc-card-copy p {
+    color: rgba(15, 23, 20, 0.60);
+    font-family: 'Jost';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 162.5%; /* 162.5% */
+}
+@media only screen and (max-width: 1280px) {
+    .comprehensive-care-section {
+        padding: 120px 0px;
+    }
+}
+@media only screen and (max-width: 1028px) {
+    .comprehensive-care-section {
+        padding: 80px 0px;
+    }
+    .comprehensive-care-cards {
+        margin: 60px 0px 0px;
+        gap: 24px;
+    }
+    .comprehensive-care-card {
+        width: calc(33% - 14px);
+    }
+}
+@media only screen and (max-width: 992px) {
+    .comprehensive-care-section {
+        padding: 60px 0px;
+    }
+    .comprehensive-care-cards {
+        margin: 40px 0px 0px;
+    }
+    .comprehensive-care-card {
+        padding: 20px 15px;
+    }
+    .cc-card-heading h3 {
+        font-size: 20px;
+    }
+    .comprehensive-care-head h2 {
+        font-size: 42px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .comprehensive-care-section {
+        padding: 20px 0px;
+    }
+    .comprehensive-care-head h2 {
+        font-size: 36px;
+    }
+    .comprehensive-care-cards {
+        margin: 20px 0px 0px;
+        gap: 15px;
+    }
+    .comprehensive-care-card {
+        width: 100%;
+    }
+    .cc-card-heading {
+        margin: 10px 0px;
+    }
+}

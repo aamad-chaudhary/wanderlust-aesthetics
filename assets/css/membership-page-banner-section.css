@@ -1,0 +1,155 @@
+.membership-page-banner {
+    position: relative;
+    height: 66.5vh;
+}
+.membership-page-banner-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.mp-banner-main {
+    position: relative;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mp-banner-breadcrumbs ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mp-banner-breadcrumbs ul li:not(:last-child) {
+    margin-right: 10px;
+    padding-right: 10px;
+}
+.mp-banner-breadcrumbs ul li:not(:last-child)::after {
+    position: absolute;
+    content: "/";
+    right: 0;
+    color: var(--white);
+}
+.mp-banner-breadcrumbs ul li {
+    position: relative;
+}
+.mp-banner-breadcrumbs ul li a, .mp-banner-breadcrumbs ul li span {
+    color: var(--white);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Jost';
+}
+.mp-banner-breadcrumbs ul li span {
+    font-weight: 500;
+}
+.mp-banner-container {
+    position: relative;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.mp-banner-title h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Cormorant Garamond";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: -2.4px;
+}
+.mp-banner-title {
+    margin: 26px 0px 46px;
+}
+.mp-banner-copy {
+    max-width: 475px;
+    margin: 0 auto 33px;
+}
+.mp-banner-copy p {
+    color: #F5F1EA;
+    text-align: center;
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 162.5%;
+}
+.mp-banner-links {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+.mp-banner-links a {
+    color: #fff;
+    text-align: center;
+    font-family: 'Jost';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    padding: 8px 35px;
+    border: 1px solid #C5A167;
+    border-radius: 100px;
+    transition: .3s ease-in-out;
+}
+.mp-banner-links a:hover {
+    background-color: #C5A167;
+}
+.gift-card-banner {
+    position: relative;
+    height: 85vh;
+}
+.mp-banner-title h1 span {
+    font-style: italic;
+    font-family: inherit;
+}
+.lmm-banner-section .mp-banner-container {
+    max-width: 574px;
+}
+.lmm-banner-section .mp-banner-copy {
+    max-width: 100%;
+}
+.lmm-banner-section .mp-banner-copy p {
+    font-size: 20px;
+}
+@media only screen and (max-width: 1028px) {
+    .membership-page-banner {
+        height: 42vh;
+    }
+    .mp-banner-container {
+        max-width: 580px;
+    }
+    .mp-banner-title {
+        margin: 20px 0px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .mp-banner-container {
+        max-width: 420px;
+    }
+    .lmm-banner-section .mp-banner-copy p {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .mp-banner-container {
+        padding: 0 20px;
+    }
+    .mp-banner-links a {
+        padding: 8px 21px;
+    }
+    .membership-page-banner {
+        height: 50vh;
+    }
+    .mp-banner-title h1 {
+        max-width: 280px;
+        margin: 0 auto;
+    }
+}
